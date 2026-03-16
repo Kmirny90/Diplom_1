@@ -1,0 +1,21 @@
+# Виртуальное окружение
+venv/
+.venv/
+ENV/
+
+# Кэши Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE (PyCharm)
+.idea/
+
+# Системные файлы macOS
+.DS_Store
+
+# Папка с исходным кодом (оставляем, но убедимся, что она есть)
+# praktikum/ - эту папку мы оставляем, она не в игноре
+praktikum/
